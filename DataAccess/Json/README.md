@@ -1,7 +1,6 @@
-# ReactPatterns ReFluxSuperAgent
+# NodejsPatterns Json
 
-A basic demonstration of flux (reflux) with SuperAgent. This would be the starting point for a simple data handling app.
-The 15 version uses more es6 and refines the reflux usage a bit.
+A basic demonstration of fetching json with SuperAgent. This would be the starting point for a simple data handling app.
 
 # Getting started
 

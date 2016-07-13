@@ -1,7 +1,7 @@
 {
-  "name": "ReactPatterns.15-MySql",
+  "name": "NodejsPatterns-MySql",
   "version": "1.0.0",
-  "description": "A collection of simple react projects providing reusable components, startup and test examples.",
+  "description": "A collection of simple node-react projects providing test examples.",
   "license": "MIT",
   "author": {
     "name": "Janaka Stevens",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/calitek/ReactPatterns.git"
+    "url": "git+https://github.com/calitek/NodejsPatterns.git"
   },
   "scripts": {
     "start": "node js/server.js",

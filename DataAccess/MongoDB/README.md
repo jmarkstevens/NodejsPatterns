@@ -1,6 +1,6 @@
-# ReactPatterns MySql
+# NodejsPatterns MongoDB
 
-A starting point for using mysql.
+A starting point for using mongodb.
 
 # Getting started
 

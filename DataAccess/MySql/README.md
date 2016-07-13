@@ -1,4 +1,4 @@
-# ReactPatterns MySql
+# NodejsPatterns MySql
 
 A starting point for using mysql.
 

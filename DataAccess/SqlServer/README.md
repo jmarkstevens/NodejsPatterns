@@ -1,4 +1,4 @@
-# ReactPatterns SqlServer
+# NodejsPatterns SqlServer
 
 A starting point for using SqlServer.
 

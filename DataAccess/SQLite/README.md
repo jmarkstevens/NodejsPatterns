@@ -1,4 +1,4 @@
-# ReactPatterns SQLite
+# NodejsPatterns SQLite
 
 A starting point for using SQLite.
 
