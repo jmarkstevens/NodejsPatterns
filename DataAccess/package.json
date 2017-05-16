@@ -1,14 +1,14 @@
 {
-  "name": "Merlin-DataAccess",
+  "name": "NodejsPatterns-DataAccess",
   "version": "1.0.0",
-  "description": "A collection of simple react projects providing reusable components, startup and test examples.",
+  "description": "A simple react/nodejs data access project for various databases.",
   "license": "Private",
   "author": {
     "name": "J Mark Stevens",
-    "email": "mstevens@merlincsi.com"
+    "email": "jms@jmarkstevens.com"
   },
   "scripts": {
-    "start": "nodemon --watch js js/server.js",
+    "start": "nodemon --watch js json/server.js",
     "mongo": "nodemon --watch js Mongo/server.js",
     "mssql": "nodemon --watch js MsSql/server.js",
     "mysql": "nodemon --watch js MySql/server.js",
