@@ -1,0 +1,48 @@
+{
+  "name": "Merlin-DataAccess",
+  "version": "1.0.0",
+  "description": "A collection of simple react projects providing reusable components, startup and test examples.",
+  "license": "Private",
+  "author": {
+    "name": "J Mark Stevens",
+    "email": "mstevens@merlincsi.com"
+  },
+  "scripts": {
+    "start": "nodemon --watch js js/server.js",
+    "mongo": "nodemon --watch js Mongo/server.js",
+    "mssql": "nodemon --watch js MsSql/server.js",
+    "mysql": "nodemon --watch js MySql/server.js",
+    "lite": "nodemon --watch js SQLite/server.js",
+    "ww": "webpack --progress --profile --colors --env.noMinimize --watch",
+    "nw": "webpack --progress --profile --colors --env.noMinimize"
+  },
+  "dependencies": {
+    "express": "latest",
+    "mongodb": "latest",
+    "mongoose": "latest",
+    "mssql": "latest",
+    "mysql": "latest",
+    "nodemon": "latest",
+    "serve-favicon": "latest",
+    "socket.io": "latest",
+    "sqlite3": "latest"
+  },
+  "devDependencies": {
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0",
+    "react-redux": "latest",
+    "redux": "latest",
+    "redux-logger": "latest",
+
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "latest",
+    "babel-preset-stage-0": "latest",
+    "css-loader": "latest",
+    "extract-text-webpack-plugin": "latest",
+    "file-loader": "latest",
+    "style-loader": "latest",
+    "webpack": "latest"
+  }
+}
