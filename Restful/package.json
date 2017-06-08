@@ -1,0 +1,50 @@
+{
+  "name": "NodejsPatterns-Restful",
+  "version": "1.0.1",
+  "description": "A restful pattern with authentication.",
+  "license": "MIT",
+  "author": {
+    "name": "J Mark Stevens",
+    "email": "jmstevens@jmarkstevens.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmarkstevens/NodejsPatterns.git"
+  },
+  "scripts": {
+    "start": "nodemon --watch js js/server.js",
+    "server1": "nodemon --watch server server/server1.js",
+    "ww": "webpack --progress --profile --colors --env.noMinimize --watch",
+    "nw": "webpack --progress --profile --colors --env.noMinimize"
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "cors": "latest",
+    "express": "latest",
+    "node-fetch": "latest",
+    "nodemon": "latest",
+    "passport": "latest",
+    "passport-http": "latest",
+    "passport-local": "latest",
+    "serve-favicon": "latest"
+  },
+  "devDependencies": {
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0",
+    "react-redux": "latest",
+    "redux": "latest",
+    "redux-thunk": "latest",
+    "whatwg-fetch": "latest",
+
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "latest",
+    "babel-preset-stage-0": "latest",
+    "css-loader": "latest",
+    "extract-text-webpack-plugin": "latest",
+    "file-loader": "latest",
+    "style-loader": "latest",
+    "webpack": "latest"
+  }
+}
